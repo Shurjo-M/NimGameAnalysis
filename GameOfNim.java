@@ -9,17 +9,17 @@ import javax.swing.*;
 
 public class GameOfNim
 {
-  public static void main (String [] args)
-  {
-    NimGame game = new NimGame();          //The game model
-    NimGUI mainScreen = new NimGUI(game);  //The game view
-    
-    //Initialize the Frame
-    JFrame f = new JFrame("The Game of Nim");
-    f.setSize(250,200);
-    f.setLocation(300,200);
-    f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-    f.setContentPane(mainScreen);
-    f.setVisible(true);
-  }
+    public static void main (String [] args)
+    {
+        NimGame game = new NimGame();          //The game model
+        NimGUI mainScreen = new NimGUI(game);  //The game view
+        
+        //Initialize the Frame
+        JFrame f = new JFrame("The Game of Nim");
+        f.setSize(250,200);
+        f.setLocation(300,200);
+        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        f.setContentPane(mainScreen);
+        f.setVisible(true);
+    }
 }

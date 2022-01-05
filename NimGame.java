@@ -114,4 +114,4 @@ public class NimGame extends Object
     gameView.update();
   }
 }
-     
+    
